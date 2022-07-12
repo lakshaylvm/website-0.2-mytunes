@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+
+/*----------------------------------------------------header-----------------------------------------------------------------*/
+
+header {
+    background-image: url(/resources/img/guitar.jpeg);
+    height: 100vh;
+}
+
+nav {
+    background-attachment: fixed;
+    background-color: rgb(51, 51, 51);
+    position: fixed;
+    width: 100%;
+}
+
+ul {
+    padding-top: 0px;
+}
+
+.nav li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 0 0 10px;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: lavender;
+}
+
+.nav li a:hover {
+    background-color: rgb(151, 144, 144);
+}
+
+.title {
+    color: lavender;
+    margin-left: 630px;
+    margin-top: 300px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.types {
+    color: lavender;
+    margin-left: 400px;
+    margin-top: 60px;
+}
+
+.thrd {
+    color: lavender;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 100px;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+}
+
+.thrd-line {
+    font-weight: bold;
+    color: lavender;
+    text-align: center;
+    margin-left: 140px;
+    padding: 20px;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+}
+
+
+/*-----------------------------------------------------------Music----------------------------------------------------------------------*/
+
+.one {
+    background-color: #252529;
+    height: 190vh;
+}
+
+.one-head {
+    color: lavender;
+    margin-left: 650px;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.two-head {
+    color: lavender;
+    margin-left: 530px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.three-head {
+    color: lavender;
+    text-align: center;
+    margin: 30px 100px;
+    font-size: 22px;
+    padding: 15px;
+}
+
+.link-head {
+    margin-left: 650px;
+    margin-top: 50px;
+}
+
+.link-head a {
+    color: lavender;
+    text-decoration: none;
+    border: 1px solid rgb(85, 1, 1);
+    background-color: rgb(85, 1, 1);
+    padding: 25px;
+}
+
+.link-head a:hover {
+    background-color: rgb(112, 1, 1);
+}
+
+.four-head {
+    color: lavender;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.img-head {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
+/*-------------------------------------------------------------easy---------------------------------------------------------------------------*/
+
+.h3 {
+    text-align: center;
+    font-size: 40px;
+    margin: 50px 0;
+}
+
+#four {
+    font-size: 22px;
+    text-align: center;
+    margin: 15px 20px 30px;
+}
+
+.first {
+    height: auto;
+    width: 80%;
+    margin-left: 140px;
+}
+
+.link-one {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.link-one a {
+    border: 1px solid rgb(3, 3, 122);
+    background-color: rgb(3, 3, 122);
+    color: lavender;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.link-one a:hover {
+    background-color: rgb(3, 3, 136);
+}
+
+
+/*-----------------------------------------------------------sky------------------------------------------------------------------------------*/
+
+.blue {
+    background-image: url(/resources/img/section-bg.jpeg);
+    height: 80vh;
+    background-size: 1800px 550px;
+    margin-bottom: 100px;
+}
+
+.kala {
+    color: blanchedalmond;
+    margin: 200px 0 0 400px;
+}
+
+.blue-lorem {
+    color: blanchedalmond;
+    text-align: center;
+    margin: 50px 100px 0 100px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+/*------------------------------------------------------------------------------gift cards--------------------------------------------------*/
+
+.img-gc img {
+    float: left;
+    margin-left: 70px;
+    width: 550px;
+}
+
+.head-gc {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.para-gc {
+    margin-right: 20px;
+}
+
+.three-gc {
+    margin: 40px 0;
+    word-spacing: 1px;
+}
+
+.link-gc {
+    margin-top: 20px;
+}
+
+.link-gc a {
+    text-decoration: none;
+    color: rgb(2, 2, 68);
+    font-weight: 800;
+}
+
+.sp-link {
+    font-weight: 800;
+}
+
+
+/*--------------------------------------------------footer---------------------------------------------------*/
+
+footer {
+    background-color: #252529;
+    padding: 20px;
+}
+
+.ftr-lin {
+    color: lavender;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    word-spacing: 0.7px;
+}
+
+.line {
+    margin: 0 80px 30px;
+    color: rgb(175, 174, 174);
+}
+
+.ftr-ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+    color: lavender;
+}
+
+.ftr-ul li a {
+    color: lavender;
+    text-decoration: none;
+}
+
+
+/*------------------------------------------------------copy----------------------------------------------*/
+
+.copy {
+    background-color: rgb(63, 63, 63);
+}
+
+.cpy-rt {
+    text-align: center;
+    padding: 25px;
+    color: lavender;
+    word-spacing: 1px;
+}
+
+
+/*---------------------------------------------TATA BY BY KHTM------------------------------------------------------------------*/
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
